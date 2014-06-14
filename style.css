@@ -1,0 +1,16 @@
+/* common styling */
+.container {position:realative; background:none  url(hide_seek.jpg); margin:50px auto; padding:10px; border:none;}
+.menu {background:grey; font-family: arial, sans-serif; width:924px; height:32px; position:relative; margin:0;}
+.menu ul li a, .menu ul li a:visited {display:block; text-decoration:none; color:#fff; width:120px; height:30px; border:2px solid #000; border-width:1px 1px; background:transparent  url(../../opacity/opaque.png); line-height:29px; padding-left:10px;}
+.menu ul {padding:0; margin:0;list-style-type: none;}
+.menu ul li {float:left; position:relative;}
+.menu ul li ul {display: none;}
+
+/* specific to non IE browsers */
+.menu ul li:hover a {color:#000; background:#003366;}
+.menu ul li:hover ul {display:block; position:absolute; top:32px; width:128px; background:none;}
+.menu ul li:hover ul li {float:top;}
+.menu ul li:hover ul li a {display:block; background:#003366  url(../../opacity/opaque.png); color:#ffffff; width:120px; float:left;}
+.menu ul li:hover ul li a:hover {background:grey; color:#000;}
+.hide {float:top;}
+
